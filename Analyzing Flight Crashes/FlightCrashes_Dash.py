@@ -6,7 +6,7 @@ import dash_html_components as html
 
 flightCrashes_data = pd.read_csv('AbdessamadTzn_flightCrashes_cleanedData.csv', encoding='ISO-8859-1')
 
-app = Dash(__name__)
+app = dash.Dash(__name__)
 
 app.layout = html.Div(
     [
